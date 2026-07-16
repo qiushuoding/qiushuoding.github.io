@@ -340,6 +340,26 @@
             margin-bottom: 12px;
         }
 
+        .paper-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 14px;
+            font-size: 12.5px;
+        }
+
+        .paper-links a {
+            color: var(--link);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            transition: color 0.15s, border-color 0.15s;
+        }
+
+        .paper-links a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
         .paper-keywords {
             display: flex;
             flex-wrap: wrap;
@@ -514,6 +534,7 @@
         <nav>
             <a href="#about">About</a>
             <a href="#research">Research</a>
+            <a href="#conferences">Conferences</a>
             <a href="#teaching">Teaching</a>
         </nav>
     </aside>
@@ -542,11 +563,11 @@
             <div class="section-rule"></div>
         </div>
 
-        <div class="subsection-title">Working Papers</div>
+        <div class="subsection-title">Accepted Papers</div>
 
         <div class="paper-card">
             <div class="paper-title">
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6291959" target="_blank" rel="noopener">
+                <a href="https://doi.org/10.1016/j.jmoneco.2026.103965" target="_blank" rel="noopener">
                     Optimal Monetary Policy with Confounding Information
                 </a>
 
@@ -559,7 +580,12 @@
             </div>
 
             <div class="paper-meta">February 2026</div>
-            <div class="paper-status">Accepted with major revision at <em>Journal of Monetary Economics</em></div>
+            <div class="paper-status">Accepted at <em>Journal of Monetary Economics</em></div>
+
+            <div class="paper-links">
+                <a href="Optimal_Monetary_Policy_with_Confounding_Information_20260716.pdf" download>Download PDF</a>
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6291959" target="_blank" rel="noopener">SSRN</a>
+            </div>
 
             <div class="paper-keywords">
                 <span class="kw-tag">Optimal monetary policy</span>
@@ -593,6 +619,17 @@
             <span class="interest-chip">Macroeconomics</span>
             <span class="interest-chip">Monetary Policy</span>
             <span class="interest-chip">Financial Markets</span>
+        </div>
+
+        <!-- Conferences -->
+        <div class="section-head" id="conferences">
+            <h2>Conference Presentations</h2>
+            <div class="section-rule"></div>
+        </div>
+
+        <div class="teaching-item">
+            <h4>The Fifth National Academic Forum for PhD Students in Macroeconomics</h4>
+            <div class="t-meta">Xiamen University · 2025</div>
         </div>
 
         <!-- Teaching -->
